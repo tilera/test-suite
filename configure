@@ -2313,6 +2313,7 @@ else
   bfin-*)                 llvm_cv_target_arch="Blackfin" ;;
   mblaze-*)               llvm_cv_target_arch="MBlaze" ;;
   ptx-*)                  llvm_cv_target_arch="PTX" ;;
+  tilegx*-*)              llvm_cv_target_arch="Tile" ;;
   *)                      llvm_cv_target_arch="Unknown" ;;
 esac
 fi
